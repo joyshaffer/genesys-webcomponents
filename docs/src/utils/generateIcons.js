@@ -15,6 +15,10 @@ const icons = [
       'user-interactions-disable'
     ]
   },
+  {
+    sectionName: 'Badge',
+    iconNames: ['badge-amount', 'badge-check', 'badge-edit', 'badge-pause']
+  },
   { sectionName: 'Co-Browse', iconNames: ['cobrowse'] },
   {
     sectionName: 'Faces',
@@ -22,6 +26,7 @@ const icons = [
       'face-happy',
       'face-happy-solid',
       'face-neutral',
+      'face-neutral-solid',
       'face-sad',
       'face-sad-solid'
     ]
@@ -107,6 +112,31 @@ const icons = [
       'phone-outbound',
       'phone-voice',
       'voicemail'
+    ]
+  },
+  {
+    sectionName: 'Roster',
+    iconNames: [
+      'roster-chat',
+      'roster-chat-disable',
+      'roster-email',
+      'roster-email-disable',
+      'roster-line',
+      'roster-line-disable',
+      'roster-message',
+      'roster-message-disable',
+      'roster-messenger',
+      'roster-messenger-disable',
+      'roster-phone',
+      'roster-phone-disable',
+      'roster-sms',
+      'roster-sms-disable',
+      'roster-twitter',
+      'roster-twitter-disable',
+      'roster-wechat',
+      'roster-wechat-disable',
+      'roster-whatsapp',
+      'roster-whatsapp-disable'
     ]
   },
   {
@@ -243,12 +273,14 @@ const icons = [
       'bus',
       'campaign',
       'configuration',
+      'customer-journey',
       'dash',
       'fire',
       'follow',
       'generic',
       'low-bandwidth',
       'lunch',
+      'notes',
       'paint',
       'palette',
       'pin',
