@@ -23,7 +23,6 @@
 
  - [gux-dropdown](../../../gux-dropdown)
  - [gux-form-field](../..)
- - [gux-pagination-buttons](../../../gux-pagination/gux-pagination-buttons)
 
 ### Depends on
 
@@ -35,7 +34,6 @@ graph TD;
   gux-input-text-like --> gux-icon
   gux-dropdown --> gux-input-text-like
   gux-form-field --> gux-input-text-like
-  gux-pagination-buttons --> gux-input-text-like
   style gux-input-text-like fill:#f9f,stroke:#333,stroke-width:4px
 ```
 

@@ -80,18 +80,31 @@ exports[`gux-pagination #render should render as expected (1) 1`] = `
                 </button>
               </gux-button-slot-beta>
             </div>
-            <div class="gux-pagination-buttons-input-container">
-              <div>
-                Page
-              </div>
-              <div class="gux-pagination-buttons-input">
-                <gux-input-text-like>
-                  <input aria-label="Page 1 of 40" slot="input" value="1">
-                </gux-input-text-like>
-              </div>
-              <div>
-                of 40
-              </div>
+            <div class="gux-pagination-buttons-list-container">
+              <button class="gux-pagination-buttons-list-current">
+                1
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                2
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                3
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                4
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                5
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                6
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                ...
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                40
+              </button>
             </div>
             <div class="gux-pagination-buttons-group">
               <gux-button-slot-beta accent="secondary">
@@ -193,18 +206,31 @@ exports[`gux-pagination #render should render as expected (2) 1`] = `
                 </button>
               </gux-button-slot-beta>
             </div>
-            <div class="gux-pagination-buttons-input-container">
-              <div>
-                Page
-              </div>
-              <div class="gux-pagination-buttons-input">
-                <gux-input-text-like>
-                  <input aria-label="Page 1 of 20" slot="input" value="1">
-                </gux-input-text-like>
-              </div>
-              <div>
-                of 20
-              </div>
+            <div class="gux-pagination-buttons-list-container">
+              <button class="gux-pagination-buttons-list-current">
+                1
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                2
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                3
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                4
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                5
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                6
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                ...
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                20
+              </button>
             </div>
             <div class="gux-pagination-buttons-group">
               <gux-button-slot-beta accent="secondary">
@@ -306,18 +332,31 @@ exports[`gux-pagination #render should render as expected (3) 1`] = `
                 </button>
               </gux-button-slot-beta>
             </div>
-            <div class="gux-pagination-buttons-input-container">
-              <div>
-                Page
-              </div>
-              <div class="gux-pagination-buttons-input">
-                <gux-input-text-like>
-                  <input aria-label="Page 1 of 14" slot="input" value="1">
-                </gux-input-text-like>
-              </div>
-              <div>
-                of 14
-              </div>
+            <div class="gux-pagination-buttons-list-container">
+              <button class="gux-pagination-buttons-list-current">
+                1
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                2
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                3
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                4
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                5
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                6
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                ...
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                14
+              </button>
             </div>
             <div class="gux-pagination-buttons-group">
               <gux-button-slot-beta accent="secondary">
@@ -419,18 +458,37 @@ exports[`gux-pagination #render should render as expected (4) 1`] = `
                 </button>
               </gux-button-slot-beta>
             </div>
-            <div class="gux-pagination-buttons-input-container">
-              <div>
-                Page
-              </div>
-              <div class="gux-pagination-buttons-input">
-                <gux-input-text-like>
-                  <input aria-label="Page 1 of 10" slot="input" value="1">
-                </gux-input-text-like>
-              </div>
-              <div>
-                of 10
-              </div>
+            <div class="gux-pagination-buttons-list-container">
+              <button class="gux-pagination-buttons-list-current">
+                1
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                2
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                3
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                4
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                5
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                6
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                7
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                8
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                9
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                10
+              </button>
             </div>
             <div class="gux-pagination-buttons-group">
               <gux-button-slot-beta accent="secondary">
@@ -532,18 +590,31 @@ exports[`gux-pagination #render should render as expected (5) 1`] = `
                 </button>
               </gux-button-slot-beta>
             </div>
-            <div class="gux-pagination-buttons-input-container">
-              <div>
-                Page
-              </div>
-              <div class="gux-pagination-buttons-input">
-                <gux-input-text-like>
-                  <input aria-label="Page 1 of 40" slot="input" value="1">
-                </gux-input-text-like>
-              </div>
-              <div>
-                of 40
-              </div>
+            <div class="gux-pagination-buttons-list-container">
+              <button class="gux-pagination-buttons-list-current">
+                1
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                2
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                3
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                4
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                5
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                6
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                ...
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                40
+              </button>
             </div>
             <div class="gux-pagination-buttons-group">
               <gux-button-slot-beta accent="secondary">
@@ -645,18 +716,34 @@ exports[`gux-pagination #render should render as expected (6) 1`] = `
                 </button>
               </gux-button-slot-beta>
             </div>
-            <div class="gux-pagination-buttons-input-container">
-              <div>
-                Page
-              </div>
-              <div class="gux-pagination-buttons-input">
-                <gux-input-text-like>
-                  <input aria-label="Page 10 of 40" slot="input" value="10">
-                </gux-input-text-like>
-              </div>
-              <div>
-                of 40
-              </div>
+            <div class="gux-pagination-buttons-list-container">
+              <button class="gux-pagination-buttons-list-target">
+                1
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                ...
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                8
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                9
+              </button>
+              <button class="gux-pagination-buttons-list-current">
+                10
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                11
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                12
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                ...
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                40
+              </button>
             </div>
             <div class="gux-pagination-buttons-group">
               <gux-button-slot-beta accent="secondary">
@@ -758,18 +845,34 @@ exports[`gux-pagination #render should render as expected (7) 1`] = `
                 </button>
               </gux-button-slot-beta>
             </div>
-            <div class="gux-pagination-buttons-input-container">
-              <div>
-                Page
-              </div>
-              <div class="gux-pagination-buttons-input">
-                <gux-input-text-like>
-                  <input aria-label="Page 10 of 20" slot="input" value="10">
-                </gux-input-text-like>
-              </div>
-              <div>
-                of 20
-              </div>
+            <div class="gux-pagination-buttons-list-container">
+              <button class="gux-pagination-buttons-list-target">
+                1
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                ...
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                8
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                9
+              </button>
+              <button class="gux-pagination-buttons-list-current">
+                10
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                11
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                12
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                ...
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                20
+              </button>
             </div>
             <div class="gux-pagination-buttons-group">
               <gux-button-slot-beta accent="secondary">
@@ -871,18 +974,31 @@ exports[`gux-pagination #render should render as expected (8) 1`] = `
                 </button>
               </gux-button-slot-beta>
             </div>
-            <div class="gux-pagination-buttons-input-container">
-              <div>
-                Page
-              </div>
-              <div class="gux-pagination-buttons-input">
-                <gux-input-text-like>
-                  <input aria-label="Page 10 of 14" slot="input" value="10">
-                </gux-input-text-like>
-              </div>
-              <div>
-                of 14
-              </div>
+            <div class="gux-pagination-buttons-list-container">
+              <button class="gux-pagination-buttons-list-target">
+                1
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                ...
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                9
+              </button>
+              <button class="gux-pagination-buttons-list-current">
+                10
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                11
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                12
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                13
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                14
+              </button>
             </div>
             <div class="gux-pagination-buttons-group">
               <gux-button-slot-beta accent="secondary">
@@ -984,18 +1100,37 @@ exports[`gux-pagination #render should render as expected (9) 1`] = `
                 </button>
               </gux-button-slot-beta>
             </div>
-            <div class="gux-pagination-buttons-input-container">
-              <div>
-                Page
-              </div>
-              <div class="gux-pagination-buttons-input">
-                <gux-input-text-like>
-                  <input aria-label="Page 10 of 10" slot="input" value="10">
-                </gux-input-text-like>
-              </div>
-              <div>
-                of 10
-              </div>
+            <div class="gux-pagination-buttons-list-container">
+              <button class="gux-pagination-buttons-list-target">
+                1
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                2
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                3
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                4
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                5
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                6
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                7
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                8
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                9
+              </button>
+              <button class="gux-pagination-buttons-list-current">
+                10
+              </button>
             </div>
             <div class="gux-pagination-buttons-group">
               <gux-button-slot-beta accent="secondary">
@@ -1149,18 +1284,31 @@ exports[`gux-pagination #render should render as expected (11) 1`] = `
                 </button>
               </gux-button-slot-beta>
             </div>
-            <div class="gux-pagination-buttons-input-container">
-              <div>
-                Page
-              </div>
-              <div class="gux-pagination-buttons-input">
-                <gux-input-text-like>
-                  <input aria-label="Page 1 of 40" slot="input" value="1">
-                </gux-input-text-like>
-              </div>
-              <div>
-                of 40
-              </div>
+            <div class="gux-pagination-buttons-list-container">
+              <button class="gux-pagination-buttons-list-current">
+                1
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                2
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                3
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                4
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                5
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                6
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                ...
+              </button>
+              <button class="gux-pagination-buttons-list-target">
+                40
+              </button>
             </div>
             <div class="gux-pagination-buttons-group">
               <gux-button-slot-beta accent="secondary">
@@ -1262,19 +1410,7 @@ exports[`gux-pagination #render should render as expected (12) 1`] = `
                 </button>
               </gux-button-slot-beta>
             </div>
-            <div class="gux-pagination-buttons-input-container">
-              <div>
-                Page
-              </div>
-              <div class="gux-pagination-buttons-input">
-                <gux-input-text-like>
-                  <input aria-label="Page 0 of 0" slot="input" value="0">
-                </gux-input-text-like>
-              </div>
-              <div>
-                of 0
-              </div>
-            </div>
+            <div class="gux-pagination-buttons-list-container"></div>
             <div class="gux-pagination-buttons-group">
               <gux-button-slot-beta accent="secondary">
                 <button disabled="" title="Next">

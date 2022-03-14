@@ -107,10 +107,6 @@ export class GuxPagination implements ComponentInterface {
   }
 
   private getPaginationInfoElement(layout: GuxPaginationLayout): JSX.Element {
-    if (layout === 'expanded') {
-      return null;
-    }
-
     const content = [
       <gux-pagination-item-counts
         total-items={this.totalItems}

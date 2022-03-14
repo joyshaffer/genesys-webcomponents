@@ -22,8 +22,6 @@ export class GuxPaginationButtons {
   @Element()
   private root: HTMLElement;
 
-  private textFieldRef: HTMLInputElement;
-
   private i18n: GetI18nValue;
 
   @Prop()
@@ -66,16 +64,6 @@ export class GuxPaginationButtons {
     this.internalcurrentpagechange.emit(pageNumber);
   }
 
-  private setPageFromInput(value: string): void {
-    const page = parseInt(value, 10);
-
-    if (!page || isNaN(page)) {
-      this.textFieldRef.value = String(this.currentPage);
-    } else {
-      this.internalcurrentpagechange.emit(page);
-    }
-  }
-
   private getPageListEnteries(
     currentPage: number,
     totalPages: number
@@ -111,7 +99,7 @@ export class GuxPaginationButtons {
     return (<div class={'gux-pagination-buttons-spacer'}></div>) as JSX.Element;
   }
 
-  private getExpandedPagePicker(): JSX.Element {
+  private getFullPagePicker(): JSX.Element {
     return (
       <div class="gux-pagination-buttons-list-container">
         {this.getPageListEnteries(this.currentPage, this.totalPages)}
@@ -119,36 +107,9 @@ export class GuxPaginationButtons {
     ) as JSX.Element;
   }
 
-  private getFullPagePicker(): JSX.Element {
-    return (
-      <div class="gux-pagination-buttons-input-container">
-        <div>{this.i18n('page')}</div>
-        <div class="gux-pagination-buttons-input">
-          <gux-input-text-like>
-            <input
-              aria-label={this.i18n('pageInputLabel', {
-                currentPage: this.currentPage,
-                totalPages: this.totalPages
-              })}
-              slot="input"
-              value={String(this.currentPage)}
-              ref={ref => (this.textFieldRef = ref)}
-              onChange={() => this.setPageFromInput(this.textFieldRef.value)}
-            />
-          </gux-input-text-like>
-        </div>
-        <div>{this.i18n('totalPages', { totalPages: this.totalPages })}</div>
-      </div>
-    ) as JSX.Element;
-  }
-
   private getPagePicker(layout: GuxPaginationLayout): JSX.Element {
     if (layout === 'small') {
       return this.getSmallPagePicker();
-    }
-
-    if (layout === 'expanded') {
-      return this.getExpandedPagePicker();
     }
 
     return this.getFullPagePicker();

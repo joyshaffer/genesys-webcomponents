@@ -8,11 +8,11 @@ An internal component used by the gux-pagination component.
 
 ## Properties
 
-| Property      | Attribute      | Description | Type                              | Default     |
-| ------------- | -------------- | ----------- | --------------------------------- | ----------- |
-| `currentPage` | `current-page` |             | `number`                          | `undefined` |
-| `layout`      | `layout`       |             | `"expanded" \| "full" \| "small"` | `'full'`    |
-| `totalPages`  | `total-pages`  |             | `number`                          | `undefined` |
+| Property      | Attribute      | Description | Type                | Default     |
+| ------------- | -------------- | ----------- | ------------------- | ----------- |
+| `currentPage` | `current-page` |             | `number`            | `undefined` |
+| `layout`      | `layout`       |             | `"full" \| "small"` | `'full'`    |
+| `totalPages`  | `total-pages`  |             | `number`            | `undefined` |
 
 
 ## Events
@@ -30,17 +30,14 @@ An internal component used by the gux-pagination component.
 
 ### Depends on
 
-- [gux-input-text-like](../../gux-form-field/components/gux-input-text-like)
 - [gux-button-slot-beta](../../../beta/gux-button-slot)
 - [gux-icon](../../gux-icon)
 
 ### Graph
 ```mermaid
 graph TD;
-  gux-pagination-buttons --> gux-input-text-like
   gux-pagination-buttons --> gux-button-slot-beta
   gux-pagination-buttons --> gux-icon
-  gux-input-text-like --> gux-icon
   gux-pagination --> gux-pagination-buttons
   style gux-pagination-buttons fill:#f9f,stroke:#333,stroke-width:4px
 ```
