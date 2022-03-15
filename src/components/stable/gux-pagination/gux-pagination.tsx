@@ -45,6 +45,9 @@ export class GuxPagination implements ComponentInterface {
   @Prop({ mutable: true })
   itemsPerPage: GuxItemsPerPage = 25;
 
+  @Prop()
+  pagesUnknown: boolean = false;
+
   /**
    * The pagination component can have different layouts to suit the available space
    */
@@ -112,6 +115,7 @@ export class GuxPagination implements ComponentInterface {
         total-items={this.totalItems}
         current-page={this.currentPage}
         items-per-page={this.itemsPerPage}
+        pages-unknown={this.pagesUnknown}
       />
     ];
 

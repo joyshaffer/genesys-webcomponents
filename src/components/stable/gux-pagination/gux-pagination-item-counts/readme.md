@@ -8,11 +8,12 @@ An internal component used by the gux-pagination component.
 
 ## Properties
 
-| Property       | Attribute        | Description | Type     | Default |
-| -------------- | ---------------- | ----------- | -------- | ------- |
-| `currentPage`  | `current-page`   |             | `number` | `0`     |
-| `itemsPerPage` | `items-per-page` |             | `number` | `25`    |
-| `totalItems`   | `total-items`    |             | `number` | `0`     |
+| Property       | Attribute        | Description | Type      | Default |
+| -------------- | ---------------- | ----------- | --------- | ------- |
+| `currentPage`  | `current-page`   |             | `number`  | `0`     |
+| `itemsPerPage` | `items-per-page` |             | `number`  | `25`    |
+| `pagesUnknown` | `pages-unknown`  |             | `boolean` | `false` |
+| `totalItems`   | `total-items`    |             | `number`  | `0`     |
 
 
 ## Dependencies

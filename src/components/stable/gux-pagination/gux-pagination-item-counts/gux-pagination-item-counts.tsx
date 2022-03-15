@@ -29,6 +29,9 @@ export class GuxPaginationItemCounts implements ComponentInterface {
   @Prop()
   itemsPerPage: number = 25;
 
+  @Prop()
+  pagesUnknown: boolean = false;
+
   private get firstItem(): number {
     if (this.totalItems < 1) {
       return 0;
@@ -49,6 +52,15 @@ export class GuxPaginationItemCounts implements ComponentInterface {
     this.i18n = await buildI18nForComponent(this.root, paginationResources);
   }
 
+  private getPaginationItemCountsRange(): JSX.Element {
+    if (this.pagesUnknown) {
+      return (<span></span>) as JSX.Element;
+    }
+    return (
+      <span>{this.i18n('totalItems', { totalItems: this.totalItems })}</span>
+    ) as JSX.Element;
+  }
+
   render(): JSX.Element {
     return (
       <div class="gux-pagination-item-counts-container">
@@ -58,7 +70,7 @@ export class GuxPaginationItemCounts implements ComponentInterface {
             lastItem: this.lastItem
           })}
         </span>
-        <span>{this.i18n('totalItems', { totalItems: this.totalItems })}</span>
+        {this.getPaginationItemCountsRange()}
       </div>
     ) as JSX.Element;
   }
