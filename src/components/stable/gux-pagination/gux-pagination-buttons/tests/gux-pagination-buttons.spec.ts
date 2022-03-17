@@ -22,9 +22,9 @@ describe('gux-pagination-item-counts', () => {
       { totalPages: 0, currentPage: 0, layout: 'full' },
       { totalPages: 10, currentPage: 1, layout: 'full' },
       { totalPages: 10, currentPage: 5, layout: 'full' },
-      { totalPages: 0, currentPage: 0, layout: 'small' },
-      { totalPages: 10, currentPage: 1, layout: 'small' },
-      { totalPages: 10, currentPage: 5, layout: 'small' }
+      { totalPages: 0, currentPage: 0, layout: 'simple' },
+      { totalPages: 10, currentPage: 1, layout: 'simple' },
+      { totalPages: 10, currentPage: 5, layout: 'simple' }
     ].forEach(({ totalPages, currentPage, layout }, index) => {
       it(`should render as expected (${index + 1})`, async () => {
         const html = `

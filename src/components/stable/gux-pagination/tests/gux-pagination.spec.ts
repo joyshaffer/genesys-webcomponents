@@ -36,7 +36,7 @@ describe('gux-pagination', () => {
       { currentPage: 10, totalItems: 1000, itemsPerPage: 50, layout: 'full' },
       { currentPage: 10, totalItems: 1000, itemsPerPage: 75, layout: 'full' },
       { currentPage: 10, totalItems: 1000, itemsPerPage: 100, layout: 'full' },
-      { currentPage: 1, totalItems: 1000, itemsPerPage: 25, layout: 'small' },
+      { currentPage: 1, totalItems: 1000, itemsPerPage: 25, layout: 'simple' },
       { currentPage: -3, totalItems: 1000, itemsPerPage: 25, layout: 'full' },
       { currentPage: -3, totalItems: 0, itemsPerPage: 25, layout: 'full' }
     ].forEach(({ currentPage, totalItems, itemsPerPage, layout }, index) => {

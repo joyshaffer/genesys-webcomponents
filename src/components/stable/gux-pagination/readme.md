@@ -18,7 +18,7 @@ the pagination state.
 | -------------- | ---------------- | ------------------------------------------------------------------------------- | ----------------------- | -------- |
 | `currentPage`  | `current-page`   | The currently select page. Changes are watched by the component.                | `number`                | `1`      |
 | `itemsPerPage` | `items-per-page` | The max number of items on a page. Used to calculate total page count           | `100 \| 25 \| 50 \| 75` | `25`     |
-| `layout`       | `layout`         | The pagination component can have different layouts to suit the available space | `"full" \| "small"`     | `'full'` |
+| `layout`       | `layout`         | The pagination component can have different layouts to suit the available space | `"full" \| "simple"`    | `'full'` |
 | `pagesUnknown` | `pages-unknown`  |                                                                                 | `boolean`               | `false`  |
 | `totalItems`   | `total-items`    | The total number of items in the data set. Used to calculate total page count   | `number`                | `0`      |
 

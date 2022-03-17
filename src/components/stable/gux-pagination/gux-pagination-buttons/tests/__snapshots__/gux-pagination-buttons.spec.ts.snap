@@ -159,8 +159,8 @@ exports[`gux-pagination-item-counts #render should render as expected (3) 1`] = 
 `;
 
 exports[`gux-pagination-item-counts #render should render as expected (4) 1`] = `
-<gux-pagination-buttons current-page="0" layout="small" total-pages="0">
-  <div class="gux-pagination-buttons-container gux-small">
+<gux-pagination-buttons current-page="0" layout="simple" total-pages="0">
+  <div class="gux-pagination-buttons-container gux-simple">
     <div class="gux-pagination-buttons-group">
       <gux-button-slot-beta accent="secondary">
         <button disabled="" title="First">
@@ -191,8 +191,8 @@ exports[`gux-pagination-item-counts #render should render as expected (4) 1`] = 
 `;
 
 exports[`gux-pagination-item-counts #render should render as expected (5) 1`] = `
-<gux-pagination-buttons current-page="1" layout="small" total-pages="10">
-  <div class="gux-pagination-buttons-container gux-small">
+<gux-pagination-buttons current-page="1" layout="simple" total-pages="10">
+  <div class="gux-pagination-buttons-container gux-simple">
     <div class="gux-pagination-buttons-group">
       <gux-button-slot-beta accent="secondary">
         <button disabled="" title="First">
@@ -223,8 +223,8 @@ exports[`gux-pagination-item-counts #render should render as expected (5) 1`] = 
 `;
 
 exports[`gux-pagination-item-counts #render should render as expected (6) 1`] = `
-<gux-pagination-buttons current-page="5" layout="small" total-pages="10">
-  <div class="gux-pagination-buttons-container gux-small">
+<gux-pagination-buttons current-page="5" layout="simple" total-pages="10">
+  <div class="gux-pagination-buttons-container gux-simple">
     <div class="gux-pagination-buttons-group">
       <gux-button-slot-beta accent="secondary">
         <button title="First">

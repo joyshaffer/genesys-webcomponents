@@ -8,11 +8,11 @@ An internal component used by the gux-pagination component.
 
 ## Properties
 
-| Property      | Attribute      | Description | Type                | Default     |
-| ------------- | -------------- | ----------- | ------------------- | ----------- |
-| `currentPage` | `current-page` |             | `number`            | `undefined` |
-| `layout`      | `layout`       |             | `"full" \| "small"` | `'full'`    |
-| `totalPages`  | `total-pages`  |             | `number`            | `undefined` |
+| Property      | Attribute      | Description | Type                 | Default     |
+| ------------- | -------------- | ----------- | -------------------- | ----------- |
+| `currentPage` | `current-page` |             | `number`             | `undefined` |
+| `layout`      | `layout`       |             | `"full" \| "simple"` | `'full'`    |
+| `totalPages`  | `total-pages`  |             | `number`             | `undefined` |
 
 
 ## Events

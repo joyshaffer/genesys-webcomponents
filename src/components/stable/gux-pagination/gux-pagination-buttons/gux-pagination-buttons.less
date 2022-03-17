@@ -21,7 +21,7 @@ gux-pagination-buttons {
       white-space: nowrap;
 
       gux-button-slot-beta:not(:first-of-type) {
-        margin-left: 4px;
+        margin-left: 8px;
       }
     }
 
@@ -59,7 +59,6 @@ gux-pagination-buttons {
       align-content: stretch;
       align-items: center;
       justify-content: center;
-      margin: 0 16px;
 
       .gux-pagination-buttons-list-current,
       .gux-pagination-buttons-list-target {
@@ -68,6 +67,12 @@ gux-pagination-buttons {
         margin: 0;
         background: inherit;
         border: none;
+
+        &:focus-visible {
+          border: 3px solid @gux-blue-90;
+          border-radius: 5px;
+          outline: none;
+        }
       }
 
       .gux-pagination-buttons-list-current {
@@ -81,7 +86,7 @@ gux-pagination-buttons {
     }
 
     .gux-pagination-buttons-spacer {
-      width: 10px;
+      width: 8px;
     }
   }
 }

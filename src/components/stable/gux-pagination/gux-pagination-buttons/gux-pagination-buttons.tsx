@@ -108,7 +108,7 @@ export class GuxPaginationButtons {
   }
 
   private getPagePicker(layout: GuxPaginationLayout): JSX.Element {
-    if (layout === 'small') {
+    if (layout === 'simple') {
       return this.getSmallPagePicker();
     }
 

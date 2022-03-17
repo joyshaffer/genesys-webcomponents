@@ -1153,7 +1153,7 @@ exports[`gux-pagination #render should render as expected (9) 1`] = `
 `;
 
 exports[`gux-pagination #render should render as expected (10) 1`] = `
-<gux-pagination current-page="1" items-per-page="25" layout="small" total-items="1000">
+<gux-pagination current-page="1" items-per-page="25" layout="simple" total-items="1000">
   <mock:shadow-root>
     <div class="gux-pagination-container">
       <div class="gux-pagination-info">
@@ -1170,7 +1170,7 @@ exports[`gux-pagination #render should render as expected (10) 1`] = `
       </div>
       <div class="gux-pagination-change">
         <gux-pagination-buttons current-page="1" total-pages="40">
-          <div class="gux-pagination-buttons-container gux-small">
+          <div class="gux-pagination-buttons-container gux-simple">
             <div class="gux-pagination-buttons-group">
               <gux-button-slot-beta accent="secondary">
                 <button disabled="" title="First">
